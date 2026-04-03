@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Logs / JSON outputs
+*.log
+*.json
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Telegram session files
+*.session
