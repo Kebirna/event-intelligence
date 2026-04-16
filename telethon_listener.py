@@ -158,7 +158,12 @@ async def send_collapsible_message(data):
             url=post_link
         ))
 
-    await client.send_message(OUTPUT_CHANNEL, full_text, formatting_entities=entities)
+    await client.send_message(
+    OUTPUT_CHANNEL,
+    full_text,
+    formatting_entities=entities,
+    link_preview=False
+)
     log(f"✅ Collapsible message sent for: {event_name}")
 
 
